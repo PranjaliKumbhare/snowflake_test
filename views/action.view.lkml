@@ -3,7 +3,7 @@
 view: action {
   # The sql_table_name parameter indicates the underlying database table
   # to be used for all fields in this view.
-  sql_table_name: "TEST"."ACTION"
+  sql_table_name: "LOOKER_SCRATCH"."ACTION"
     ;;
 
   dimension: certificate {
@@ -80,5 +80,11 @@ view: action {
   measure: count {
     type: count
     drill_fields: [movie_name]
+  }
+
+  measure: total_gross_income {
+    type: sum
+    sql: ${grossin_};;
+    value_format_name: custom
   }
 }

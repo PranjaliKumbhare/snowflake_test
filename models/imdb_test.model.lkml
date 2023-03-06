@@ -2,6 +2,9 @@
 connection: "snowflake_test"
 include: "/views/*.view"
 
+named_value_format: custom {
+  value_format: "[>=1000000]$0.0,,\"M\";[>=1000]$0.0,\"K\";$0.0"
+}
 # Datagroups define a caching policy for an Explore. To learn more,
 # use the Quick Help panel on the right to see documentation.
 
