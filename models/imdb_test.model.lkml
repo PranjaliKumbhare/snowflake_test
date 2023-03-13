@@ -15,9 +15,15 @@ datagroup: imdb_test_default_datagroup {
 
 persist_with: imdb_test_default_datagroup
 
+explore: base {
+  label: "Combined"
+  view_name: base
+  from:  base
+}
+
 explore: action {
   label: "IMDB Genres"
-
+  join: base{}
   join: adventure {
     type: full_outer
     sql_on: ${action.movie_id} = ${adventure.movie_id};;
