@@ -1,4 +1,4 @@
-include: "/views/*.view"
+# include: "/views/*.view"
 
 view: base{
   derived_table: {

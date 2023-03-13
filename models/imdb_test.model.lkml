@@ -15,6 +15,12 @@ datagroup: imdb_test_default_datagroup {
 
 persist_with: imdb_test_default_datagroup
 
+explore: union {
+  label: "Model"
+  view_name: union
+  from:  union
+}
+
 explore: base {
   label: "Combined"
   view_name: base
