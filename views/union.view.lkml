@@ -112,7 +112,7 @@ view: union {
   }
 
   measure: total_gross_income {
-    type: sum
+    type: number
     sql: ${grossin_};;
     value_format_name: custom
   }
