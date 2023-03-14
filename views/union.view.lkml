@@ -109,11 +109,6 @@ view: union {
     type: number
     label: "gross(in $)"
     sql: ${TABLE}."gross(in $)" ;;
-  }
-
-  measure: total_gross_income {
-    type: number
-    sql: ${grossin_};;
     value_format_name: custom
   }
 
