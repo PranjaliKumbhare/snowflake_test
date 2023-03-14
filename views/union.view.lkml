@@ -65,6 +65,7 @@ view: union {
   }
 
   dimension: genre {
+    hidden:  yes
     type: string
     sql: ${TABLE}."GENRE" ;;
   }
