@@ -52,6 +52,7 @@ view: union {
   dimension: year {
     type: number
     sql: ${TABLE}."YEAR" ;;
+    value_format_name: id
   }
 
   dimension: certificate {
