@@ -1,6 +1,7 @@
 # Define the database connection to be used for this model.
 connection: "snowflake_test"
 include: "/views/*.view"
+include: "/Dashboards/*.dashboard.lookml" # include all the views
 
 named_value_format: custom {
   value_format: "[>=1000000]$0.0,,\"M\";[>=1000]$0.0,\"K\";$0.0"

@@ -3,7 +3,7 @@
   layout: newspaper
   preferred_viewer: dashboards-next
   crossfilter_enabled: true
-  description: 'Dsshboard with Navigation Bar'
+  description: 'IMDB Dashboard'
   preferred_slug: AmMEm64as3a7t4iLafiJ3T
   elements:
   - title: Top 10 Movies with the Highest Income

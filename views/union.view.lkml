@@ -113,6 +113,12 @@ view: union {
     value_format_name: custom
   }
 
+  measure: total_gross_income {
+    type: sum
+    sql: ${grossin_};;
+    value_format_name: custom
+  }
+
   set: detail {
     fields: [
       genre,
