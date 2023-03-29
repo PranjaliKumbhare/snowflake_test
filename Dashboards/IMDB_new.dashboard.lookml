@@ -1091,7 +1091,7 @@
     body_text: |+
       <div style='background-color: #ffc4e2; padding: 5px 10px; border: solid 1px #ededed; border-radius: 5px; text-align: center;'>
 
-      <h3 style='margin-bottom: 10px; font-weight: bold;'>Top Performers</h3>
+      <h3 style='margin-bottom: 10px; font-weight: bold;'>Top Performers </h3>
 
       <p>Filters are available to get your desired outcomes</p>
 
